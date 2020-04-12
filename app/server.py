@@ -8,9 +8,9 @@ from fastai.vision import *
 from fastai import *
 import base64
 
-model_file_url = 'https://github.com/pankymathur/Fine-Grained-Clothing-Classification/blob/master/data/cloth_categories/models/stage-1_sz-150.pth?raw=true'
+model_file_url = 'https://drive.google.com/file/d/1gJG4hxZNn2YTyPsr5Fb9hbavklxCYAb2/view?usp=sharing'
 model_file_name = 'model.pth'
-classes = ['Blouse', 'Blazer', 'Button-Down', 'Bomber', 'Anorak', 'Tee', 'Tank', 'Top', 'Sweater', 'Flannel', 'Hoodie', 'Cardigan', 'Jacket', 'Henley', 'Poncho', 'Jersey', 'Turtleneck', 'Parka', 'Peacoat', 'Halter', 'Skirt', 'Shorts', 'Jeans', 'Joggers', 'Sweatpants', 'Jeggings', 'Cutoffs', 'Sweatshorts', 'Leggings', 'Culottes', 'Chinos', 'Trunks', 'Sarong', 'Gauchos', 'Jodhpurs', 'Capris', 'Dress', 'Romper', 'Coat', 'Kimono', 'Jumpsuit', 'Robe', 'Caftan', 'Kaftan', 'Coverup', 'Onesie']
+classes = ['GulabJamun', 'Jalebi', 'Rasgulla', 'Rasmalai', 'Ladoo']
 
 path = Path(__file__).parent
 
