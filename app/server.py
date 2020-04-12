@@ -8,7 +8,7 @@ from fastai.vision import *
 from fastai import *
 import base64
 
-model_file_url = 'https://drive.google.com/file/d/1gJG4hxZNn2YTyPsr5Fb9hbavklxCYAb2/view?usp=sharing'
+model_file_url = 'https://www.dropbox.com/s/hhsfurqcl5z520c/model.pkl?raw=1'
 model_file_name = 'model.pth'
 classes = ['GulabJamun', 'Jalebi', 'Rasgulla', 'Rasmalai', 'Ladoo']
 
