@@ -9,7 +9,7 @@ from fastai import *
 import base64
 
 model_file_url = 'https://www.dropbox.com/s/hhsfurqcl5z520c/model.pkl?raw=1'
-model_file_name = 'model.pth'
+model_file_name = 'model.pkl'
 classes = ['GulabJamun', 'Jalebi', 'Rasgulla', 'Rasmalai', 'Ladoo']
 
 path = Path(__file__).parent
